@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visibilidad</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    .caja{
+      background-color:#1DCF04;
+    }
+
+  </style>
+  
+</head>
+<body>
+<br>
+<div class="row text-center">
+    <!-- Primero --> 
+    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+        <div class="visible-lg text-success well">Extra small</div>
+        <div class="visible-md text-warning well">Extra small</div>
+        <div class="visible-sm text-danger well">Extra small</div>
+        <div class="visible-xs text-danger well caja"><span class="glyphicon glyphicon-ok"></span>&nbsp;Visible on x-small</div>
+    </div>
+    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+        <div class="visible-lg text-success well">Small</div>
+        <div class="visible-md text-warning well">Small</div>
+        <div class="visible-sm text-danger well caja"><span class="glyphicon glyphicon-ok"></span>&nbsp;Visible on small</div>
+        <div class="visible-xs text-danger well">Small</div>
+    </div>
+    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+        <div class="visible-lg text-success well">Medium</div>
+        <div class="visible-md text-warning well caja"><span class="glyphicon glyphicon-ok"></span>&nbsp;Visible on medium</div>
+        <div class="visible-sm text-danger well">Medium</div>
+        <div class="visible-xs text-danger well">Medium</div>
+    </div>    
+    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+        <div class="visible-lg text-success well caja"><span class="glyphicon glyphicon-ok"></span>&nbsp;Visible on large</div>
+        <div class="visible-md text-warning well">Large</div>
+        <div class="visible-sm text-danger well">Large</div>
+        <div class="visible-xs text-danger well">Large</div>
+    </div>    
+
+
+    <!-- Segundo --> 
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="visible-lg text-success well">Extra small and small</div>
+        <div class="visible-md text-warning well">Extra small and small</div>
+        <div class="visible-sm text-danger well caja"><span class="glyphicon glyphicon-ok"></span>&nbsp;Visible on x-small and small</div>
+        <div class="visible-xs text-danger well caja"><span class="glyphicon glyphicon-ok"></span>&nbsp;Visible on x-small and small</div>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="visible-lg text-success well caja"><span class="glyphicon glyphicon-ok"></span>&nbsp;Visible on medium and large</div>
+        <div class="visible-md text-warning well caja"><span class="glyphicon glyphicon-ok"></span>&nbsp;Visible on medium and large</div>
+        <div class="visible-sm text-danger well">Medium and large</div>
+        <div class="visible-xs text-danger well">Medium and large</div>
+    </div>
+   
+    <!-- Tercero --> 
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="visible-lg text-success well">Extra small and medium</div>
+        <div class="visible-md text-warning well caja"><span class="glyphicon glyphicon-ok"></span>&nbsp;Visible on x-small and medium</div>
+        <div class="visible-sm text-danger well">Extra small and medium</div>
+        <div class="visible-xs text-danger well caja"><span class="glyphicon glyphicon-ok"></span>&nbsp;Visible on x-small and medium</div>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="visible-lg text-success well caja"><span class="glyphicon glyphicon-ok"></span>&nbsp;Visible on small and large</div>
+        <div class="visible-md text-warning well">Small and large</div>
+        <div class="visible-sm text-danger well caja"><span class="glyphicon glyphicon-ok"></span>&nbsp;Visible on small and large</div>
+        <div class="visible-xs text-danger well">Small and large</div>
+    </div>
+
+    <!-- Cuarto --> 
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="visible-lg text-success well caja"><span class="glyphicon glyphicon-ok"></span>&nbsp;Visible on x-small and large</div>
+        <div class="visible-md text-warning well">Extra small and large</div>
+        <div class="visible-sm text-danger well">Extra small and large</div>
+        <div class="visible-xs text-danger well caja"><span class="glyphicon glyphicon-ok"></span>&nbsp;Visible on x-small and large</div>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="visible-lg text-success well">Small and medium</div>
+        <div class="visible-md text-warning well caja"><span class="glyphicon glyphicon-ok"></span>&nbsp;Visible on small and medium</div>
+        <div class="visible-sm text-danger well caja"><span class="glyphicon glyphicon-ok"></span>&nbsp;Visible on small and medium</div>
+        <div class="visible-xs text-danger well">Small and medium</div>
+    </div>
+</div>
+</body>
+</html>
